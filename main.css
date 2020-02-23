@@ -16,7 +16,9 @@ html {
 .topWrap,
 .leftContents,
 .visitStoreButton,
-.storeButtonWrap {
+.storeButtonWrap,
+.rightContents,
+.carBlurbWrap {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -157,6 +159,67 @@ li {
     cursor: pointer;
 }
 
+.rightContents {
+    position: absolute;
+    width: 980px;
+    height: 100%;
+    right: 0;
+
+}
+
+.carBlurbWrap {
+    position: absolute;
+    width: 693px;
+    height: 161px;
+    padding: 0;
+    top: 254px;
+}
+
+.blurbTitle {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 6.5px;
+}
+
+.para-1,
+.para-2 {
+    position: absolute;
+    font-weight: 100;
+    top: 40px;
+    margin: 0;
+    line-height: 20px;
+}
+
+.para-1 {
+    left: 0;
+}
+
+.para-2 {
+    right: 55px;
+
+}
+
+.line {
+    position: absolute;
+    top: 23px;
+    left: 0;
+    width: 693px;
+    border: 0.7\px solid black;
+}
+
+.bottomImage {
+    position: absolute;
+    top: 200px;
+}
+
+
+
+
 /*--------HOVERS & SUCH---------*/
 
 .visitStoreButton:hover {
@@ -171,7 +234,5 @@ li {
 .visitStoreButton:active {
     box-shadow: none;
     background-color: #DFE0DF;
-
-
 
 }
