@@ -5,6 +5,7 @@ html {
     margin: 0;
     font-family: 'Poppins';
     display: flex;
+    overflow: hidden;
 }
 
 .sideBar,
@@ -12,7 +13,10 @@ html {
 .twitterIcon,
 .instagramIcon,
 .iconWrap,
-.topWrap {
+.topWrap,
+.leftContents,
+.visitStoreButton,
+.storeButtonWrap {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,7 +93,7 @@ html {
     position: absolute;
     width: 900px;
     height: 80px;
-    
+
     background-color: #DFE0DF;
     right: 0;
     top: 0;
@@ -109,7 +113,7 @@ html {
 li {
     display: inline-block;
     font-size: 25px;
-    font-weight: 300; 
+    font-weight: 300;
 
 }
 
@@ -121,4 +125,39 @@ li {
     margin-right: 14px;
     font-size: 23px;
     color: #FF9A2E48;
+}
+
+.leftContents {
+    position: absolute;
+    width: 860px;
+    height: 100%;
+    left: 148px;
+
+}
+
+.main-title {
+    position: absolute;
+    font-weight: 300;
+    line-height: 100px;
+    font-size: 98px;
+    margin: 0;
+}
+
+.visitStoreButton {
+    position: absolute;
+    height: 80px;
+    width: 160px;
+    background-color: #DFE0DF;
+    bottom: 200px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-weight: 100;
+    font-size: 20px;
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        0 12.5px 10px rgba(0, 0, 0, 0.035),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        0 100px 80px rgba(0, 0, 0, 0.07);
 }
