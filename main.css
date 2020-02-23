@@ -1,0 +1,67 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+}
+
+.sideBar,
+.facebookIcon,
+.twitterIcon,
+.instagramIcon,
+.iconWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sideBar {
+    position: relative;
+    height: 100%;
+    width: 160px;
+    
+    background-color: #FF9A2E32;
+}
+
+.iconWrap {
+    position: relative;
+    margin: 0;
+    
+    width: 80px;
+    height: 270px;
+
+}
+
+.facebookIcon,
+.twitterIcon,
+.instagramIcon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 6px solid #fff;
+    border-radius: 100px;
+    font-size: 23px;
+    color: #FF9A2E;
+    z-index: 100;
+
+}
+
+.twitterIcon {
+    top: -5px;
+
+}
+
+
+.facebookIcon {
+    bottom: 0px;
+    font-size: 20px;
+
+}
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-instagram {
+    position: absolute;
+
+}
