@@ -82,5 +82,43 @@ html {
     top: 40px;
     font-size: 18px;
     font-weight: 300;
+
+}
+
+.topNavBar {
+    position: absolute;
+    width: 900px;
+    height: 80px;
     
+    background-color: #DFE0DF;
+    right: 0;
+    top: 0;
+    -webkit-clip-path: polygon(2% 0%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(2% 0%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.menu {
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    left: 34px;
+}
+
+li {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 300; 
+
+}
+
+.events {
+    margin: 0px 178px;
+}
+
+.fa-bullseye {
+    margin-right: 14px;
+    font-size: 23px;
+    color: #FF9A2E48;
 }
